@@ -2,7 +2,6 @@ import { Button, Card, Icon } from "@stellar/design-system"
 import React from "react"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
-import { GuessTheNumber } from "../components/GuessTheNumber"
 import { MilestoneTracker } from "../components/MilestoneTracker"
 import { labPrefix } from "../contracts/util"
 
@@ -100,7 +99,6 @@ const Home: React.FC = () => {
 								</Link>{" "}
 								{t("home.sampleContracts.guessDesc2")}
 							</p>
-							<GuessTheNumber />
 						</div>
 
 						<div className="space-y-10 flex flex-col justify-center border-l border-white/10 pl-12">
